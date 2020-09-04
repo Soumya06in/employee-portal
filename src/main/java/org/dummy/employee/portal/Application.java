@@ -45,6 +45,11 @@ public class Application {
 	}
 
 
+	/**
+	 * Local validator factory bean.
+	 *
+	 * @return the javax.validation. validator
+	 */
 	@Bean
 	public javax.validation.Validator localValidatorFactoryBean() {
 		return new LocalValidatorFactoryBean();
