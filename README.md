@@ -22,3 +22,10 @@ Git, JDK 1.8, Maven 3.6.3
      -   We need to go to the following link from browser to test the registration and listing of all employee REST APIs - <http://localhost:8080/swagger-ui.html> and provide the *Basic Authentication username & password*.
     -   We need to test the actuator endpoints from POSTMAN: E.g. **GET** <http://localhost:8080/actuator/health> and provide the Basic Authentication username & password while calling the APIs.
     *Note:* Actuator endpoints doesn't show up correctly in Swagger UI and therefore not exposed through the same.
+    
+## Scope of Improvement of the solution
+1. Dockerizing the application to make it cloud native and scaling instances easily.
+2. Moving to JWT based authentication instead of simple Basic authentication.
+3. Configuring nginx for reverse-proxy and load-balancing. Also TLS should be implemented in nginx to secure the communication.
+4. Configuring logback for logging in console/file and log rotation.
+5. Caching the GET calls and evicting the cache at regular interval. 
