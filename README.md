@@ -28,4 +28,3 @@ Git, JDK 1.8, Maven 3.6.3
 2. Moving to JWT based authentication instead of simple Basic authentication.
 3. Configuring nginx for reverse-proxy and load-balancing. Also TLS should be implemented in nginx to secure the communication.
 4. Configuring logback for logging in console/file and log rotation.
-5. Caching the GET calls and evicting the cache at regular interval. 
