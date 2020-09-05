@@ -13,7 +13,7 @@ Git, JDK 1.8, Maven 3.6.3
 4. Change to "employee-portal" directory and run the following command from terminal:
      - 	**mvn clean install** (This will also run the test cases). This should ensure a jar file created in employee-portal/target/**employee-portal-1.0.0.jar**
 5. Command to execute the jar as background process from terminal: 
-      -   **java -Dspring.config.location=[PATH-TO_CONFIG-DIRECTORY] -Dspring.profiles.active=local -Djasypt.encryptor.password=[JASYPT-ENCRYPTOR-PASSWORD] -Xmx1024M -jar employee-portal-1.0.0.jar > employee-portal.log &**<br/>
+      -   **java -Dspring.config.location=[PATH-TO_CONFIG-DIRECTORY] -Dspring.profiles.active=local -Djasypt.encryptor.password=[JASYPT-ENCRYPTOR-PASSWORD] -Xmx1024m -jar employee-portal-1.0.0.jar > employee-portal.log &**<br/>
          E.g. *PATH-TO-CONFIG-DIRECTORY=/opt/applications/employee-portal/config/* <br/> 
          		 *JASYPT-ENCRYPTOR-PASSWORD=samplestring*
  
